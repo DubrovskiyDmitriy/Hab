@@ -1,0 +1,28 @@
+body{
+    width: 1153px;
+    margin: 0 auto;
+}
+header{
+    height: 247px;
+}
+nav{
+    position: sticky;
+}
+.topWindow {
+    position: fixed;
+    top: 0;
+    z-index:9999;
+}
+.moved-element {
+    display: none;
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    width: 50px;
+    height: 20px;
+    background-color: #323232;
+}
+.content{
+    display: block;
+    margin-top: 55px;
+}
