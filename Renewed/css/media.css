@@ -1,0 +1,213 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .wall li:nth-child(4){
+        display: none;
+    }
+      .wall li:nth-child(3){
+        margin-right: 10px;
+    }
+    .wall li{
+        margin-right: 10px;
+    }
+   .wall{
+       padding-top: 30px;
+    }
+    .brides li{
+        margin: 0px;
+    }
+    .photoworks li{
+        margin: 0px;
+    }
+    
+}
+@media only screen and (max-width : 991px){
+    .brides{
+        float: none;
+        width: 430px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .brides li{
+        float: none;
+        display: inline-block;
+    }
+    .brides li:nth-child(1){
+        margin-right: 10px;
+    }
+     .brides li:nth-child(2){
+        margin-left: 10px;
+    }
+    .photoworks{
+        float: none;
+        width: 430px;
+        margin: 0 auto;
+        margin-top: 20px;
+        position: relative;
+    }
+    .photoworks li{
+        float: none;
+        display: inline-block;
+    }
+    .photoworks li:nth-child(1){
+        margin-right: 10px;
+    }
+     .photoworks li:nth-child(2){
+        margin-left: 10px;
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 990px) {
+    .wall{
+       display: none;
+    }
+    .slider {
+        width: 70%;
+        height: auto;
+        overflow: hidden;
+        float: none;
+        margin: 0 auto;
+    }
+    .tabs_block{
+        max-width: 600px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .sait{
+        display: none;
+        float:none;
+        width: 120px;
+        margin: 0 auto;
+        border-bottom: none;
+        border-top: none;
+    }
+    .sait li{
+        display: list-item;
+        margin: 0px;
+        text-align: center;
+    }
+    .sait li:first-child{
+        margin-left: 0px;
+    }
+    .sait li:hover ul{
+        position:absolute;
+        left:-9999px;
+    }
+    .networks{
+        position:absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .slider{
+        width: 100%;
+    }
+    .contacts ul{
+        float: none;
+        margin-top: 40px;
+    }
+    .contacts li{
+        text-align: center;
+    }
+    .forma{
+        float: none;
+        width: auto;
+        margin-top: 20px;
+    }
+    .tabs_block{
+        max-width: 450px;
+    }
+    .scrollButtons{
+        display: none;
+    }
+}
+@media only screen and (max-width : 497px){
+    .tabs_block{
+        max-width: 300px;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .brides{
+        width: 200px;
+    }
+    .brides li:nth-child(2){
+        display: none;
+    }
+    .photoworks{
+        width: 200px;
+    }
+    .photoworks li:nth-child(2){
+        display: none;
+    }
+    
+    
+}
+@media only screen and (max-width : 380px) {
+    .menu1 > a {  
+        font-size:14px;
+        font-weight: bolder;
+    }
+    #name, #phone, #email, #message{
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width : 347px){
+    .tabs_block{
+        max-width: 150px;
+    }
+}
+@media only screen and (max-width : 330px) {
+    .forma label{
+        width: 200px;
+    }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .navigation>button p{
+        display: none;
+    }
+    .contacts ul span{
+        margin: 0px;
+    }
+}
+@media only screen and (max-width : 292px) {
+    .menu1 > a {  
+        font-size:12px;
+    }
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	 .navigation>button{
+        display:none;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	 .navigation>button{
+        display:none;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .navigation>button{
+        display:none;
+    }
+}

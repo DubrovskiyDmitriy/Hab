@@ -1,0 +1,341 @@
+body{
+    
+}
+header{
+    margin-top: 50px;
+}
+/*---------------*name*---------------*/
+.name{
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 5px solid rgb(106, 103, 103);
+    border-left: 5px solid rgb(106, 103, 103);
+    border-right: 5px solid rgb(106, 103, 103);
+    border-bottom: 5px solid rgb(106, 103, 103);
+    font-family: "Viva";
+}
+
+/*---------------*nav*---------------*/
+nav{
+    margin-top: 30px; 
+    font-family: "Viva";
+}
+/*---------------*navigation*---------------*/
+.navigation ul{
+    margin-bottom: 0px;
+}
+.navigation li{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 3;
+}
+/*---------------*sait*---------------*/
+.sait li{
+    margin-right: 30px;
+}
+.sait li:first-child{
+    margin-left: 30px;
+}
+.sait{
+    float: left;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.sait ul{
+    position:absolute;
+    left:-9999px;
+}
+.sait li:hover ul{
+    left: 148px;
+}
+.sait ul li{
+    font-size: 15px;
+    margin: 0px;
+    line-height: 2;
+    display: list-item;
+    border-bottom: 1px solid black;
+}
+.sait ul li:first-child{
+    margin-left: 0px;
+}
+.sait a{
+    color: black;
+}
+.sait a:hover{
+    color: rgb(106, 103, 103);
+    text-decoration: none;
+}
+/*---------------*networks*---------------*/
+.networks{
+    float: right;
+}
+/*---------------*button*---------------*/
+.navigation>button img{
+    float: left;
+}
+.navigation>button p{
+    float: left;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(106, 103, 103);
+    line-height: 3;
+}
+/*---------------*foto*---------------*/
+.foto{
+    margin-top: 70px;
+}
+/*---------------*slider*---------------*/
+.slider {
+	width: 70%;
+	height: auto;
+	overflow: hidden;
+    float: left;
+}
+.slider img{
+    width: 100%;
+}
+	
+.slides {
+height: 100%;
+
+/* Simple clear fix */
+overflow: hidden;
+		
+/**	
+ * Prevent blinking issue
+ * Not tested. Experimental.
+ */
+-webkit-backface-visibility: hidden;
+-webkit-transform-style: preserve-3d;
+
+/**
+* Here is CSS transitions 
+* responsible for slider animation in modern broswers
+*/
+-webkit-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+-moz-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+-ms-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+-o-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
+}
+	
+.slide {
+    height: 100%;
+    float: left;
+    clear: none;
+}
+
+
+/*.slider-arrows {}
+
+.slider-arrow {
+    position: absolute;
+    display: block;
+    margin-bottom: -20px;
+    padding: 20px;
+}
+
+.slider-arrow--right { 
+    bottom: 50%; right: 30px; 
+}
+.slider-arrow--left { 
+    bottom: 50%; left: 30px; 
+}
+
+
+.slider-nav {
+    position: absolute;
+    bottom: 30px;
+}
+
+.slider-nav__item {
+    width: 12px;
+    height: 12px;
+    float: left;
+    clear: none;
+    display: block;
+    margin: 0 5px;
+    background: #fff;
+}
+.slider-nav__item:hover { 
+    background: #ccc; 
+}
+.slider-nav__item--current { 
+    background: #ccc; 
+}*/
+/*---------------*wall*---------------*/
+.wall{
+    width: 30%;
+    float: right;
+    padding-top: 15px;
+}
+.wall img{
+    width: 100%;
+}
+.wall ul{
+    list-style-type: none;
+}
+.wall li{
+    float: right;
+    margin-right: 20px;
+}
+.wall li:first-child{
+    margin: 0px;
+}
+.wall li:nth-child(3){
+    margin: 0px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.wall li:nth-child(4){
+    margin: 0px;
+    margin-top: 20px;
+}
+/*---------------*portfolio*---------------*/
+.portfolio{
+    margin-top: 50px;
+}
+.portfolio h2{
+    text-align: center;
+    font-family: "Viva";
+    font-weight: bolder;
+}
+.portfolio ul{
+    list-style-type: none;
+    font-size: 20px;
+    font-weight:bolder;
+    font-family: "Viva";
+}
+.brides{
+    float: left;
+}
+.brides li{
+    float: right;
+    margin-left: 50px;
+}
+.brides li:nth-child(3){
+    float: none;   
+}
+.portfolio a{
+    color: black;
+}
+.portfolio a:hover{
+    text-decoration: none;
+}
+.photoworks{
+    float: right;
+}
+.photoworks li{
+    float: left;
+    margin-right: 50px;
+}
+.photoworks li:nth-child(3){
+    float: none;
+}
+/*---------------*price*---------------*/
+.price{
+    margin-top: 50px;
+    font-family: "Viva";
+}
+.price h2{
+    font-family: "Viva";
+    text-align: center;
+    font-weight: bolder;
+}
+/*---------------*about-me*---------------*/
+.about-me{
+    margin-top: 50px;
+    font-family: "Viva";
+}
+.about-me h2{
+    font-family: "Viva";
+    text-align: center;
+    font-weight: bolder;
+}
+.about-me__video{
+    max-width: 400px;
+    margin: 0 auto;
+}
+video{
+    width: 100%;
+}
+/*---------------*contacts*---------------*/
+.contacts{
+    margin-top: 50px;
+}
+.contacts h2{
+    font-weight: bolder;
+    font-family: "Viva";
+    text-align: center;
+}
+.contacts ul{
+    list-style-type: none;
+    float: left;
+    font-family: "Viva";
+}
+.contacts li:first-child{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.contacts ul span{
+    font-size: 17px;
+    margin-right: 20px
+}
+.contacts li{
+    margin-bottom: 10px;
+}
+/*.contacts__video{
+    width: 400px;
+    margin: 0 auto;
+}
+video{
+    max-width: 400px;
+}*/
+.forma{
+    float: right;
+    font-family: "Viva";
+    width: 300px;
+    text-align: center;
+}
+.forma-name, .forma-phone, .forma-email{
+    margin-bottom: 15px;
+}
+.forma-submit{
+    margin-top: 20px;
+}
+#name{
+   margin-left: 35px; 
+}
+#phone{
+    margin-left: 45px;
+}
+#email{
+    margin-left: 17px;
+}
+#message{
+    margin-left: 20px;
+    resize: none;
+}
+/*#name, #phone, #email, #message{
+    float: right;
+}*/
+/*---------------------*toTop*---------------------*/
+#toTop {
+width:90px;
+border:1px solid #ccc;
+border-radius: 10px;
+background:#f7f7f7;
+text-align:center;
+padding:5px;
+position:fixed;
+bottom:10px; 
+right:10px;
+cursor:pointer;
+display:none;
+color:#333;
+font-family:verdana;
+font-size:11px;
+}
